@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="shortcut icon" href="assets/images/logo-min.png" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="assets/css/style.css">
+   <title>NFT</title>
+</head>
+<body>
+   <!-- Header -->
+   <header class="header">
+      <div class="container">
+         <div class="header-nav">
+            <a href="#" class="logo">
+               <img src="assets/images/logo-min.png" alt="">
+            </a>
+            <nav class="nav-list">
+               <span class="nav-list__item active">Explore</span>
+               <span class="nav-list__item" id="scroll">Get started</span>
+            </nav>
+            <div class="wallet">Connect Wallet</div>
+         </div>
+      </div>
+   </header>
+   <!-- End of Header -->
+
+   <!-- Intro -->
+    <section class="intro">
+      <div class="container">
+         <div class="intro-inner">
+            <div class="intro-flex">
+               <div class="intro__info">
+                  <h1 class="intro__info-title wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s">Explore, Buy and Sell the <span>Best NFTs!</span></h1>
+                  <div class="intro__info-buttons wow animate__animated animate__fadeInLeft" data-wow-delay=".8s" data-wow-duration="1.5s">
+                     <a href="#" class="btn-primary intro__info-btn">Explore</a>
+                     <a href="#" class="btn-secondary intro__info-btn">Create</a>
+                  </div>
+               </div>
+               <div class="intro__nft">
+                  <div class="intro__nft-dec1"></div>
+                  <div class="intro__nft-dec2"></div>
+                  <div class="intro__nft-dec3"></div>
+                  <div class="intro__nft-box wow animate__animated animate__fadeInLeft" data-wow-delay="1.7s" data-wow-duration="1.5s">
+                     <div class="intro__nft-box-top">
+                        <div class="intro__nft-box-top-item">
+                           <div class="intro__nft-box-top-item-title">Current bid</div>
+                           <div class="intro__nft-box-top-item-suptitile">0.99 ETH</div>
+                        </div>
+                        <div class="intro__nft-box-top-item">
+                           <div class="intro__nft-box-top-item-title">Ends in</div>
+                           <div class="intro__nft-box-top-item-suptitile">25 hrs</div>
+                        </div>
+                     </div>
+
+                     <img class="intro__nft-box-img" src="assets/images/intro/intro-img.png" alt="">
+
+                     <div class="intro__nft-box-bot">
+                        <div class="intro__nft-box-bot-author">
+                           <div class="intro__nft-box-bot-name">Artist</div>
+                           <div class="intro__nft-box-bot-nick">@wzard</div>
+                        </div>
+                        <a href="#" class="intro__nft-btn btn-primary">Start Bid</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="intro__stat">
+               <div class="intro__stat-item">
+                  <div class="intro__stat-item-amount">32k+</div>
+                  <div class="intro__stat-item-title">Artworks</div>
+               </div>
+               <div class="intro__stat-item">
+                  <div class="intro__stat-item-amount">20k+</div>
+                  <div class="intro__stat-item-title">Auctions</div>
+               </div>
+               <div class="intro__stat-item">
+                  <div class="intro__stat-item-amount">12k+</div>
+                  <div class="intro__stat-item-title">Creators</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End of Intro -->
+   <!-- Platforms -->
+ <section class="platforms">
+      <div class="container">
+         <div class="platforms-inner">
+            <div class="platforms-item"><img src="assets/images/platforms/coinbase.png" alt="" class=" wow animate__animated animate__fadeIn" data-wow-duration="1.2s"></div>
+            <div class="platforms-item"><img src="assets/images/platforms/blockchain.png" alt="" class=" wow animate__animated animate__fadeIn" data-wow-delay=".6s" data-wow-duration="1.2s"></div>
+            <div class="platforms-item"><img src="assets/images/platforms/binance.png" alt="" class=" wow animate__animated animate__fadeIn" data-wow-delay="1.2s" data-wow-duration="1.2s"></div>
+            <div class="platforms-item"><img src="assets/images/platforms/bitmex.png" alt="" class=" wow animate__animated animate__fadeIn" data-wow-delay="1.8s" data-wow-duration="1.2s"></div>
+         </div>
+      </div>
+   </section>
+   <!-- End of Platforms -->
+   <!-- Auctions -->
+   <section class="auctions">
+      <div class="container">
+         <div class="section-title">
+            <div class="auctions-decor"></div>
+            <svg class="section-title__svg" xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+               <circle cx="55" cy="55" r="55" fill="#8613A5" />
+            </svg>
+            <h2 class="h2">Live Auctions</h2>
+         </div>
+         <div class="auctions__slider" data-slider>
+            <div class="auctions__item">
+               <div class="auctions__item-img">
+                  <img src="assets/images/auctions/art1.jpg" alt="virtual art">
+                  <div class="auctions__item-timer"></div>
+               </div>
+               <div class="item-author">
+                  <div class="item-author__info">
+                     <img class="item-author__icon" src="assets/images/auctions/auctions-icon.png" alt="">
+                     <div>
+                        <div class="item-author__info-name">Virtual Art</div>
+                        <div class="item-author__info-nick">by @wzard</div>
+                     </div>
+                  </div>
+                  <div class="item-author__likes">
+                     <i class='bx bx-heart'></i>
+                     <span>92</span>
+                  </div>
+               </div>
+               <div class="item-bid">
+                  <div class="item-bid__title">Current Bid</div>
+                  <div class="item-bid__price">4.89 ETH</div>
+               </div>
+               <a href="#" class="auctions__item-btn">Place a bid</a>
+            </div>
+            <div class="auctions__item">
+               <div class="auctions__item-img">
+                  <img src="assets/images/auctions/art2.jpg" alt="virtual art">
+                  <div class="auctions__item-timer"></div>
+               </div>
+               <div class="item-author">
+                  <div class="item-author__info">
+                     <img class="item-author__icon" src="assets/images/auctions/auctions-icon.png" alt="">
+                     <div>
+                        <div class="item-author__info-name">Virtual Art</div>
+                        <div class="item-author__info-nick">by @wzard</div>
+                     </div>
+                  </div>
+                  <div class="item-author__likes">
+                     <i class='bx bx-heart'></i>
+                     <span>92</span>
+                  </div>
+               </div>
+               <div class="item-bid">
+                  <div class="item-bid__title">Current Bid</div>
+                  <div class="item-bid__price">4.89 ETH</div>
+               </div>
+               <a href="#" class="auctions__item-btn">Place a bid</a>
+            </div>
+            <div class="auctions__item">
+               <div class="auctions__item-img">
+                  <img src="assets/images/auctions/art3.jpg" alt="virtual art">
+                  <div class="auctions__item-timer">03:18:24</div>
+               </div>
+               <div class="item-author">
+                  <div class="item-author__info">
+                     <img class="item-author__icon" src="assets/images/auctions/auctions-icon.png" alt="">
+                     <div>
+                        <div class="item-author__info-name">Virtual Art</div>
+                        <div class="item-author__info-nick">by @wzard</div>
+                     </div>
+                  </div>
+                  <div class="item-author__likes">
+                     <i class='bx bx-heart'></i>
+                     <span>92</span>
+                  </div>
+               </div>
+               <div class="item-bid">
+                  <div class="item-bid__title">Current Bid</div>
+                  <div class="item-bid__price">4.89 ETH</div>
+               </div>
+               <a href="#" class="auctions__item-btn">Place a bid</a>
+            </div>
+            <div class="auctions__item">
+               <div class="auctions__item-img">
+                  <img src="assets/images/auctions/art1.jpg" alt="virtual art">
+                  <div class="auctions__item-timer">03:18:24</div>
+               </div>
+               <div class="item-author">
+                  <div class="item-author__info">
+                     <img class="item-author__icon" src="assets/images/auctions/auctions-icon.png" alt="">
+                     <div>
+                        <div class="item-author__info-name">Virtual Art</div>
+                        <div class="item-author__info-nick">by @wzard</div>
+                     </div>
+                  </div>
+                  <div class="item-author__likes">
+                     <i class='bx bx-heart'></i>
+                     <span>92</span>
+                  </div>
+               </div>
+               <div class="item-bid">
+                  <div class="item-bid__title">Current Bid</div>
+                  <div class="item-bid__price">4.89 ETH</div>
+               </div>
+               <a href="#" class="auctions__item-btn">Place a bid</a>
+            </div>
+            <div class="auctions__item">
+               <div class="auctions__item-img">
+                  <img src="assets/images/auctions/art2.jpg" alt="virtual art">
+                  <div class="auctions__item-timer">03:18:24</div>
+               </div>
+               <div class="item-author">
+                  <div class="item-author__info">
+                     <img class="item-author__icon" src="assets/images/auctions/auctions-icon.png" alt="">
+                     <div>
+                        <div class="item-author__info-name">Virtual Art</div>
+                        <div class="item-author__info-nick">by @wzard</div>
+                     </div>
+                  </div>
+                  <div class="item-author__likes">
+                     <i class='bx bx-heart'></i>
+                     <span>92</span>
+                  </div>
+               </div>
+               <div class="item-bid">
+                  <div class="item-bid__title">Current Bid</div>
+                  <div class="item-bid__price">4.89 ETH</div>
+               </div>
+               <a href="#" class="auctions__item-btn">Place a bid</a>
+            </div>
+            <div class="auctions__item">
+               <div class="auctions__item-img">
+                  <img src="assets/images/auctions/art3.jpg" alt="virtual art">
+                  <div class="auctions__item-timer">03:18:24</div>
+               </div>
+               <div class="item-author">
+                  <div class="item-author__info">
+                     <img class="item-author__icon" src="assets/images/auctions/auctions-icon.png" alt="">
+                     <div>
+                        <div class="item-author__info-name">Virtual Art</div>
+                        <div class="item-author__info-nick">by @wzard</div>
+                     </div>
+                  </div>
+                  <div class="item-author__likes">
+                     <i class='bx bx-heart'></i>
+                     <span>92</span>
+                  </div>
+               </div>
+               <div class="item-bid">
+                  <div class="item-bid__title">Current Bid</div>
+                  <div class="item-bid__price">4.89 ETH</div>
+               </div>
+               <a href="#" class="auctions__item-btn">Place a bid</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End of Auctions -->
+   <!-- Instruction -->
+   <section class="instruction">
+      <div class="container">
+         <div class="instruction-inner">
+            <div class="section-title instruction-title">
+               <div class="instruction-decor"></div>
+               <h2 class="h2">How it works</h2>
+            </div>
+            <div class="instruction__list">
+               <div class="instruction__item">
+                  <div class="instruction__item-icon wow animate__animated animate__fadeInLeft" data-wow-duration="1.2s">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path
+                           d="M42.6668 19.9997H41.3335V11.9997C41.3335 11.646 41.193 11.3069 40.943 11.0569C40.6929 10.8068 40.3538 10.6663 40.0002 10.6663H8.00018C7.68446 10.6715 7.37716 10.5644 7.133 10.3642C6.88883 10.164 6.72364 9.88362 6.66685 9.57301V9.09301C6.72364 8.7824 6.88883 8.50202 7.133 8.30181C7.37716 8.10159 7.68446 7.99452 8.00018 7.99967H39.4402C39.7938 7.99967 40.1329 7.8592 40.383 7.60915C40.633 7.3591 40.7735 7.01996 40.7735 6.66634C40.7735 6.31272 40.633 5.97358 40.383 5.72353C40.1329 5.47348 39.7938 5.33301 39.4402 5.33301H8.00018C6.93932 5.33301 5.9219 5.75444 5.17176 6.50458C4.42161 7.25473 4.00018 8.27214 4.00018 9.33301C3.99082 9.49287 3.99082 9.65314 4.00018 9.81301V37.2397C4.00542 37.9576 4.152 38.6674 4.43158 39.3286C4.71115 39.9899 5.11823 40.5896 5.62957 41.0935C6.14092 41.5974 6.74651 41.9957 7.41178 42.2655C8.07704 42.5354 8.78895 42.6716 9.50685 42.6663H40.0002C40.3538 42.6663 40.6929 42.5259 40.943 42.2758C41.193 42.0258 41.3335 41.6866 41.3335 41.333V33.333H42.6668C43.0205 33.333 43.3596 33.1925 43.6097 32.9425C43.8597 32.6924 44.0002 32.3533 44.0002 31.9997V21.333C44.0002 20.9794 43.8597 20.6402 43.6097 20.3902C43.3596 20.1401 43.0205 19.9997 42.6668 19.9997ZM38.6668 39.9997H9.50685C8.76525 40.0068 8.05082 39.7209 7.51897 39.204C6.98712 38.6871 6.68087 37.9812 6.66685 37.2397V13.173C7.09965 13.2984 7.55 13.3525 8.00018 13.333H38.6668V19.9997H29.3335C27.5654 19.9997 25.8697 20.702 24.6195 21.9523C23.3692 23.2025 22.6668 24.8982 22.6668 26.6663C22.6668 28.4344 23.3692 30.1301 24.6195 31.3804C25.8697 32.6306 27.5654 33.333 29.3335 33.333H38.6668V39.9997ZM41.3335 30.6663H29.3335C28.2726 30.6663 27.2552 30.2449 26.5051 29.4948C25.7549 28.7446 25.3335 27.7272 25.3335 26.6663C25.3335 25.6055 25.7549 24.5881 26.5051 23.8379C27.2552 23.0878 28.2726 22.6663 29.3335 22.6663H41.3335V30.6663Z"
+                           fill="#908294" />
+                        <path
+                           d="M30.6799 28.667C31.7845 28.667 32.6799 27.7716 32.6799 26.667C32.6799 25.5624 31.7845 24.667 30.6799 24.667C29.5754 24.667 28.6799 25.5624 28.6799 26.667C28.6799 27.7716 29.5754 28.667 30.6799 28.667Z"
+                           fill="#908294" />
+                     </svg>
+                  </div>
+                  <div class="instruction__item-about">Set up your wallet</div>
+                  <svg class="instruction__item-arrow" xmlns="http://www.w3.org/2000/svg" width="132" height="12" viewBox="0 0 132 12"
+                     fill="none">
+                     <path
+                        d="M1 5C0.447715 5 0 5.44772 0 6C0 6.55228 0.447715 7 1 7L1 5ZM131.773 6L126 0.226497L120.226 6L126 11.7735L131.773 6ZM7.25 7C7.80228 7 8.25 6.55228 8.25 6C8.25 5.44772 7.80228 5 7.25 5V7ZM19.75 5C19.1977 5 18.75 5.44772 18.75 6C18.75 6.55228 19.1977 7 19.75 7V5ZM32.25 7C32.8023 7 33.25 6.55228 33.25 6C33.25 5.44772 32.8023 5 32.25 5V7ZM44.75 5C44.1977 5 43.75 5.44772 43.75 6C43.75 6.55228 44.1977 7 44.75 7V5ZM57.25 7C57.8023 7 58.25 6.55228 58.25 6C58.25 5.44772 57.8023 5 57.25 5V7ZM69.75 5C69.1977 5 68.75 5.44772 68.75 6C68.75 6.55228 69.1977 7 69.75 7V5ZM82.25 7C82.8023 7 83.25 6.55228 83.25 6C83.25 5.44772 82.8023 5 82.25 5V7ZM94.75 5C94.1977 5 93.75 5.44772 93.75 6C93.75 6.55228 94.1977 7 94.75 7V5ZM107.25 7C107.802 7 108.25 6.55228 108.25 6C108.25 5.44772 107.802 5 107.25 5V7ZM119.75 5C119.198 5 118.75 5.44772 118.75 6C118.75 6.55228 119.198 7 119.75 7V5ZM1 7L7.25 7V5L1 5L1 7ZM19.75 7L32.25 7V5L19.75 5V7ZM44.75 7L57.25 7V5L44.75 5V7ZM69.75 7L82.25 7V5L69.75 5V7ZM94.75 7L107.25 7V5L94.75 5V7ZM119.75 7L126 7V5L119.75 5V7Z"
+                        fill="#794187" />
+                  </svg>
+               </div>
+               
+               <div class="instruction__item">
+                  <div class="instruction__item-icon wow animate__animated animate__fadeInLeft" data-wow-delay=".6s" data-wow-duration="1.2s">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <g clip-path="url(#clip0_3403_273)">
+                           <path
+                              d="M7.5 10.5C7.10218 10.5 6.72064 10.342 6.43934 10.0607C6.15804 9.77936 6 9.39782 6 9C6 8.60218 6.15804 8.22064 6.43934 7.93934C6.72064 7.65804 7.10218 7.5 7.5 7.5H40.5C40.8978 7.5 41.2794 7.65804 41.5607 7.93934C41.842 8.22064 42 8.60218 42 9C42 9.39782 41.842 9.77936 41.5607 10.0607C41.2794 10.342 40.8978 10.5 40.5 10.5H7.5ZM13.5 4.5C13.1022 4.5 12.7206 4.34196 12.4393 4.06066C12.158 3.77936 12 3.39782 12 3C12 2.60218 12.158 2.22064 12.4393 1.93934C12.7206 1.65804 13.1022 1.5 13.5 1.5H34.5C34.8978 1.5 35.2794 1.65804 35.5607 1.93934C35.842 2.22064 36 2.60218 36 3C36 3.39782 35.842 3.77936 35.5607 4.06066C35.2794 4.34196 34.8978 4.5 34.5 4.5H13.5ZM0 39C0 40.1935 0.474106 41.3381 1.31802 42.182C2.16193 43.0259 3.30653 43.5 4.5 43.5H43.5C44.6935 43.5 45.8381 43.0259 46.682 42.182C47.5259 41.3381 48 40.1935 48 39V18C48 16.8065 47.5259 15.6619 46.682 14.818C45.8381 13.9741 44.6935 13.5 43.5 13.5H4.5C3.30653 13.5 2.16193 13.9741 1.31802 14.818C0.474106 15.6619 0 16.8065 0 18L0 39ZM4.5 40.5C4.10218 40.5 3.72064 40.342 3.43934 40.0607C3.15804 39.7794 3 39.3978 3 39V18C3 17.6022 3.15804 17.2206 3.43934 16.9393C3.72064 16.658 4.10218 16.5 4.5 16.5H43.5C43.8978 16.5 44.2794 16.658 44.5607 16.9393C44.842 17.2206 45 17.6022 45 18V39C45 39.3978 44.842 39.7794 44.5607 40.0607C44.2794 40.342 43.8978 40.5 43.5 40.5H4.5Z"
+                              fill="#908294" />
+                        </g>
+                        <defs>
+                           <clipPath id="clip0_3403_273">
+                              <rect width="48" height="48" fill="white" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+                  </div>
+                  <div class="instruction__item-about">Create your collection</div>
+                  <svg class="instruction__item-arrow" xmlns="http://www.w3.org/2000/svg" width="132" height="12" viewBox="0 0 132 12"
+                     fill="none">
+                     <path
+                        d="M1 5C0.447715 5 0 5.44772 0 6C0 6.55228 0.447715 7 1 7L1 5ZM131.773 6L126 0.226497L120.226 6L126 11.7735L131.773 6ZM7.25 7C7.80228 7 8.25 6.55228 8.25 6C8.25 5.44772 7.80228 5 7.25 5V7ZM19.75 5C19.1977 5 18.75 5.44772 18.75 6C18.75 6.55228 19.1977 7 19.75 7V5ZM32.25 7C32.8023 7 33.25 6.55228 33.25 6C33.25 5.44772 32.8023 5 32.25 5V7ZM44.75 5C44.1977 5 43.75 5.44772 43.75 6C43.75 6.55228 44.1977 7 44.75 7V5ZM57.25 7C57.8023 7 58.25 6.55228 58.25 6C58.25 5.44772 57.8023 5 57.25 5V7ZM69.75 5C69.1977 5 68.75 5.44772 68.75 6C68.75 6.55228 69.1977 7 69.75 7V5ZM82.25 7C82.8023 7 83.25 6.55228 83.25 6C83.25 5.44772 82.8023 5 82.25 5V7ZM94.75 5C94.1977 5 93.75 5.44772 93.75 6C93.75 6.55228 94.1977 7 94.75 7V5ZM107.25 7C107.802 7 108.25 6.55228 108.25 6C108.25 5.44772 107.802 5 107.25 5V7ZM119.75 5C119.198 5 118.75 5.44772 118.75 6C118.75 6.55228 119.198 7 119.75 7V5ZM1 7L7.25 7V5L1 5L1 7ZM19.75 7L32.25 7V5L19.75 5V7ZM44.75 7L57.25 7V5L44.75 5V7ZM69.75 7L82.25 7V5L69.75 5V7ZM94.75 7L107.25 7V5L94.75 5V7ZM119.75 7L126 7V5L119.75 5V7Z"
+                        fill="#794187" />
+                  </svg>
+               </div>
+               
+               <div class="instruction__item">
+                  <div class="instruction__item-icon wow animate__animated animate__fadeInLeft" data-wow-delay="1.2s" data-wow-duration="1.2s">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path
+                           d="M22.1318 16.0078L22.4998 15.9978H37.4998C39.1598 15.9977 40.7569 16.6326 41.9637 17.7725C43.1704 18.9123 43.8954 20.4706 43.9898 22.1278L43.9998 22.4978V37.4978C44 39.1581 43.3647 40.7555 42.2245 41.9623C41.0843 43.1691 39.5255 43.8938 37.8678 43.9878L37.4998 43.9978H22.4998C20.8396 43.998 19.2422 43.3627 18.0354 42.2225C16.8286 41.0823 16.1038 39.5235 16.0098 37.8658L15.9998 37.4998V22.4998C15.9997 20.8396 16.635 19.2422 17.7752 18.0354C18.9154 16.8286 20.4742 16.1038 22.1318 16.0098V16.0078ZM37.4998 18.9978H22.4998C21.6215 18.9979 20.7752 19.3282 20.1291 19.9232C19.4829 20.5182 19.0841 21.3344 19.0118 22.2098L18.9998 22.4978V37.4978C18.9999 38.3765 19.3305 39.2231 19.9259 39.8693C20.5214 40.5155 21.3381 40.914 22.2138 40.9858L22.4998 40.9978H37.4998C38.3785 40.9978 39.2251 40.6672 39.8713 40.0718C40.5175 39.4763 40.916 38.6596 40.9878 37.7838L40.9998 37.4978V22.4978C40.9998 21.5696 40.6311 20.6793 39.9747 20.023C39.3183 19.3666 38.4281 18.9978 37.4998 18.9978ZM29.9998 21.9998C30.3977 21.9998 30.7792 22.1579 31.0605 22.4392C31.3418 22.7205 31.4998 23.102 31.4998 23.4998V28.4958H36.4998C36.8977 28.4958 37.2792 28.6539 37.5605 28.9352C37.8418 29.2165 37.9998 29.598 37.9998 29.9958C37.9998 30.3937 37.8418 30.7752 37.5605 31.0565C37.2792 31.3378 36.8977 31.4958 36.4998 31.4958H31.4998V36.4998C31.4998 36.8977 31.3418 37.2792 31.0605 37.5605C30.7792 37.8418 30.3977 37.9998 29.9998 37.9998C29.602 37.9998 29.2205 37.8418 28.9392 37.5605C28.6579 37.2792 28.4998 36.8977 28.4998 36.4998V31.4958H23.4998C23.102 31.4958 22.7205 31.3378 22.4392 31.0565C22.1579 30.7752 21.9998 30.3937 21.9998 29.9958C21.9998 29.598 22.1579 29.2165 22.4392 28.9352C22.7205 28.6539 23.102 28.4958 23.4998 28.4958H28.4998V23.4998C28.4998 23.102 28.6579 22.7205 28.9392 22.4392C29.2205 22.1579 29.602 21.9998 29.9998 21.9998ZM31.1638 8.46584L31.2678 8.81984L32.6538 13.9958H29.5478L28.3718 9.59584C28.253 9.15163 28.0478 8.73518 27.768 8.3703C27.4881 8.00542 27.1391 7.69926 26.7409 7.46932C26.3427 7.23938 25.9031 7.09016 25.4471 7.0302C24.9912 6.97023 24.528 7.00069 24.0838 7.11984L9.59584 11.0038C8.7501 11.2306 8.02009 11.7662 7.54986 12.5049C7.07964 13.2435 6.90337 14.1316 7.05584 14.9938L7.11984 15.2898L11.0038 29.7778C11.186 30.4586 11.5695 31.0686 12.104 31.5279C12.6386 31.9871 13.2994 32.2743 13.9998 32.3518V35.3638C12.6995 35.2863 11.4524 34.8202 10.42 34.0257C9.3877 33.2312 8.61772 32.145 8.20984 30.9078L8.10584 30.5558L4.22384 16.0658C3.79385 14.4626 3.99351 12.7556 4.7819 11.2948C5.57028 9.8341 6.88764 8.73032 8.46384 8.20984L8.81984 8.10584L23.3078 4.22384C24.9111 3.79385 26.6181 3.99351 28.0788 4.7819C29.5396 5.57028 30.6434 6.88764 31.1638 8.46384V8.46584Z"
+                           fill="#908294" />
+                     </svg>
+                  </div>
+                  <div class="instruction__item-about">Add your NFTs</div>
+                  <svg class="instruction__item-arrow" xmlns="http://www.w3.org/2000/svg" width="132" height="12" viewBox="0 0 132 12"
+                     fill="none">
+                     <path
+                        d="M1 5C0.447715 5 0 5.44772 0 6C0 6.55228 0.447715 7 1 7L1 5ZM131.773 6L126 0.226497L120.226 6L126 11.7735L131.773 6ZM7.25 7C7.80228 7 8.25 6.55228 8.25 6C8.25 5.44772 7.80228 5 7.25 5V7ZM19.75 5C19.1977 5 18.75 5.44772 18.75 6C18.75 6.55228 19.1977 7 19.75 7V5ZM32.25 7C32.8023 7 33.25 6.55228 33.25 6C33.25 5.44772 32.8023 5 32.25 5V7ZM44.75 5C44.1977 5 43.75 5.44772 43.75 6C43.75 6.55228 44.1977 7 44.75 7V5ZM57.25 7C57.8023 7 58.25 6.55228 58.25 6C58.25 5.44772 57.8023 5 57.25 5V7ZM69.75 5C69.1977 5 68.75 5.44772 68.75 6C68.75 6.55228 69.1977 7 69.75 7V5ZM82.25 7C82.8023 7 83.25 6.55228 83.25 6C83.25 5.44772 82.8023 5 82.25 5V7ZM94.75 5C94.1977 5 93.75 5.44772 93.75 6C93.75 6.55228 94.1977 7 94.75 7V5ZM107.25 7C107.802 7 108.25 6.55228 108.25 6C108.25 5.44772 107.802 5 107.25 5V7ZM119.75 5C119.198 5 118.75 5.44772 118.75 6C118.75 6.55228 119.198 7 119.75 7V5ZM1 7L7.25 7V5L1 5L1 7ZM19.75 7L32.25 7V5L19.75 5V7ZM44.75 7L57.25 7V5L44.75 5V7ZM69.75 7L82.25 7V5L69.75 5V7ZM94.75 7L107.25 7V5L94.75 5V7ZM119.75 7L126 7V5L119.75 5V7Z"
+                        fill="#794187" />
+                  </svg>
+               </div>
+               <div class="instruction__item">
+                  <div class="instruction__item-icon wow animate__animated animate__fadeInLeft" data-wow-delay="1.8s" data-wow-duration="1.2s">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path d="M41 14L24 4L7 14V34L24 44L41 34V14Z" stroke="#908294" stroke-width="3" stroke-linejoin="round" />
+                        <path d="M23.9999 22V30" stroke="#908294" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M32 18V30" stroke="#908294" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M16 26V30" stroke="#908294" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                     </svg>
+                  </div>
+                  <div class="instruction__item-about">List them for sale</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End of Instruction -->
+   <!-- Collections -->
+   <section class="collections">
+      <div class="container">
+         <div class="collections-inner">
+            <div class="section-title">
+               <div class="collections-decor"></div>
+               <svg class="section-title__svg section-title__svg--collections" xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                  <circle cx="55" cy="55" r="55" fill="#E03054" />
+               </svg>
+               <h2 class="h2">Popular Collections</h2>
+            </div>
+            <div class="collections__slider" data-sliderCollection>
+               <div class="collections__item">
+                  <img class="collections__item-image" src="assets/images/collections/collection1.jpg" alt="">
+                  <div class="collections__item-info">
+                     <div class="d-flex">
+                        <img class="collections__item-icon" src="assets/images/collections/collection-icon.png" alt="">
+                        <div class="collections__item-name">@wzard</div>
+                     </div>
+                     <div class="collections__item-erc">ERC-721</div>
+                  </div>
+               </div>
+               <div class="collections__item">
+                  <img class="collections__item-image" src="assets/images/collections/collection2.jpg" alt="">
+                  <div class="collections__item-info">
+                     <div class="d-flex">
+                        <img class="collections__item-icon" src="assets/images/collections/collection-icon.png" alt="">
+                        <div class="collections__item-name">@wzard</div>
+                     </div>
+                     <div class="collections__item-erc">ERC-721</div>
+                  </div>
+               </div>
+               <div class="collections__item">
+                  <img class="collections__item-image" src="assets/images/collections/collection1.jpg" alt="">
+                  <div class="collections__item-info">
+                     <div class="d-flex">
+                        <img class="collections__item-icon" src="assets/images/collections/collection-icon.png" alt="">
+                        <div class="collections__item-name">@wzard</div>
+                     </div>
+                     <div class="collections__item-erc">ERC-721</div>
+                  </div>
+               </div>
+               <div class="collections__item">
+                  <img class="collections__item-image" src="assets/images/collections/collection1.jpg" alt="">
+                  <div class="collections__item-info">
+                     <div class="d-flex">
+                        <img class="collections__item-icon" src="assets/images/collections/collection-icon.png" alt="">
+                        <div class="collections__item-name">@wzard</div>
+                     </div>
+                     <div class="collections__item-erc">ERC-721</div>
+                  </div>
+               </div>
+               <div class="collections__item">
+                  <img class="collections__item-image" src="assets/images/collections/collection2.jpg" alt="">
+                  <div class="collections__item-info">
+                     <div class="d-flex">
+                        <img class="collections__item-icon" src="assets/images/collections/collection-icon.png" alt="">
+                        <div class="collections__item-name">@wzard</div>
+                     </div>
+                     <div class="collections__item-erc">ERC-721</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End of Collections -->
+   <!-- Categories -->
+   <section class="categories">
+      <div class="container">
+         <div class="categories-inner">
+            <div class="section-title">
+               <div class="categories-decor"></div>
+               <svg class="section-title__svg" xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                  <circle cx="55" cy="55" r="55" fill="#8613A5" />
+               </svg>
+               <h2 class="h2">Explore By Categories</h2>
+            </div>
+
+            <div class="categories-content">
+               <div class="categories__item">
+                  <a href="#" class="place-category">Place a bid</a>
+                  <img src="assets/images/categories/category1.jpg" alt="" class="categories__item-img">
+                  <div class="item-author">
+                     <div class="item-author__info">
+                        <img class="item-author__icon" src="assets/images/categories/category-icon.png" alt="">
+                        <div>
+                           <div class="item-author__info-name item-author__info-name--categories">Virtual Art</div>
+                           <div class="item-author__info-nick item-author__info-nick--categories">by @wzard</div>
+                        </div>
+                     </div>
+                     <div class="item-author__likes item-author__likes--categories">
+                        <i class='bx bx-heart'></i>
+                        <span>92</span>
+                     </div>
+                  </div>
+                  <div class="item-bid">
+                     <div class="item-bid__title item-bid__title--categories">Current Bid</div>
+                     <div class="item-bid__price item-bid__price--categories">4.89 ETH</div>
+                  </div>
+               </div>
+               <div class="categories__item">
+                  <a href="#" class="place-category">Place a bid</a>
+                  <img src="assets/images/categories/category2.jpg" alt="" class="categories__item-img">
+                  <div class="item-author">
+                     <div class="item-author__info">
+                        <img class="item-author__icon" src="assets/images/categories/category-icon.png" alt="">
+                        <div>
+                           <div class="item-author__info-name item-author__info-name--categories">Virtual Art</div>
+                           <div class="item-author__info-nick item-author__info-nick--categories">by @wzard</div>
+                        </div>
+                     </div>
+                     <div class="item-author__likes">
+                        <i class='bx bx-heart'></i>
+                        <span>92</span>
+                     </div>
+                  </div>
+                  <div class="item-bid">
+                     <div class="item-bid__title">Current Bid</div>
+                     <div class="item-bid__price">4.89 ETH</div>
+                  </div>
+               </div>
+               <div class="categories__item">
+                  <a href="#" class="place-category">Place a bid</a>
+                  <img src="assets/images/categories/category3.jpg" alt="" class="categories__item-img">
+                  <div class="item-author">
+                     <div class="item-author__info">
+                        <img class="item-author__icon" src="assets/images/categories/category-icon.png" alt="">
+                        <div>
+                           <div class="item-author__info-name item-author__info-name--categories">Virtual Art</div>
+                           <div class="item-author__info-nick item-author__info-nick--categories">by @wzard</div>
+                        </div>
+                     </div>
+                     <div class="item-author__likes">
+                        <i class='bx bx-heart'></i>
+                        <span>92</span>
+                     </div>
+                  </div>
+                  <div class="item-bid">
+                     <div class="item-bid__title">Current Bid</div>
+                     <div class="item-bid__price">4.89 ETH</div>
+                  </div>
+               </div>
+               <div class="categories__item categories__item-hidden">
+                  <a href="#" class="place-category">Place a bid</a>
+                  <img src="assets/images/categories/category1.jpg" alt="" class="categories__item-img">
+                  <div class="item-author">
+                     <div class="item-author__info">
+                        <img class="item-author__icon" src="assets/images/categories/category-icon.png" alt="">
+                        <div>
+                           <div class="item-author__info-name item-author__info-name--categories">Virtual Art</div>
+                           <div class="item-author__info-nick item-author__info-nick--categories">by @wzard</div>
+                        </div>
+                     </div>
+                     <div class="item-author__likes item-author__likes--categories">
+                        <i class='bx bx-heart'></i>
+                        <span>92</span>
+                     </div>
+                  </div>
+                  <div class="item-bid">
+                     <div class="item-bid__title item-bid__title--categories">Current Bid</div>
+                     <div class="item-bid__price item-bid__price--categories">4.89 ETH</div>
+                  </div>
+               </div>
+               <div class="categories__item categories__item-hidden">
+                  <a href="#" class="place-category">Place a bid</a>
+                  <img src="assets/images/categories/category2.jpg" alt="" class="categories__item-img">
+                  <div class="item-author">
+                     <div class="item-author__info">
+                        <img class="item-author__icon" src="assets/images/categories/category-icon.png" alt="">
+                        <div>
+                           <div class="item-author__info-name item-author__info-name--categories">Virtual Art</div>
+                           <div class="item-author__info-nick item-author__info-nick--categories">by @wzard</div>
+                        </div>
+                     </div>
+                     <div class="item-author__likes">
+                        <i class='bx bx-heart'></i>
+                        <span>92</span>
+                     </div>
+                  </div>
+                  <div class="item-bid">
+                     <div class="item-bid__title">Current Bid</div>
+                     <div class="item-bid__price">4.89 ETH</div>
+                  </div>
+               </div>
+               <div class="categories__item categories__item-hidden">
+                  <a href="#" class="place-category">Place a bid</a>
+                  <img src="assets/images/categories/category3.jpg" alt="" class="categories__item-img">
+                  <div class="item-author">
+                     <div class="item-author__info">
+                        <img class="item-author__icon" src="assets/images/categories/category-icon.png" alt="">
+                        <div>
+                           <div class="item-author__info-name item-author__info-name--categories">Virtual Art</div>
+                           <div class="item-author__info-nick item-author__info-nick--categories">by @wzard</div>
+                        </div>
+                     </div>
+                     <div class="item-author__likes">
+                        <i class='bx bx-heart'></i>
+                        <span>92</span>
+                     </div>
+                  </div>
+                  <div class="item-bid">
+                     <div class="item-bid__title">Current Bid</div>
+                     <div class="item-bid__price">4.89 ETH</div>
+                  </div>
+               </div>
+            </div>
+            <a href="#" class="view-all-btn view-all-btn--categories" data-collapse=".categories__item-hidden">View All</a>
+         </div>
+      </div>
+   </section>
+   <!-- End of Categories -->
+   <!-- Creators -->
+   <section class="creators">
+      <div class="container">
+         <div class="creators-inner">
+            <div class="section-title">
+               <svg class="section-title__svg" xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                  <circle cx="55" cy="55" r="55" fill="#E03054" />
+               </svg>
+               <h2 class="h2">Top Creators</h2>
+            </div>
+            <div class="creators__block">
+               <div class="creators__item wow animate__animated animate__fadeInLeft" data-wow-duration="1.2s">
+                  <div class="creators__item-flex">
+                     <img class="creators__item-img" src="assets/images/creators/creator1.png" alt="">
+                     <div>
+                        <div class="creators__item-name">Wzard Dee</div>
+                        <div class="creators__item-price">4.89 ETH</div>
+                     </div>
+                  </div>
+                  <div class="creators__item-items">
+                     <div class="creators__item-items-amount">33</div>
+                     <div class="creators__item-items-title">Items</div>
+                  </div>
+               </div>
+               <div class="creators__item wow animate__animated animate__fadeInRight" data-wow-delay=".6s" data-wow-duration="1.2s">
+                  <div class="creators__item-flex">
+                     <img class="creators__item-img" src="assets/images/creators/creator2.png" alt="">
+                     <div>
+                        <div class="creators__item-name">Wzard Dee</div>
+                        <div class="creators__item-price">4.89 ETH</div>
+                     </div>
+                  </div>
+                  <div class="creators__item-items">
+                     <div class="creators__item-items-amount">33</div>
+                     <div class="creators__item-items-title">Items</div>
+                  </div>
+               </div>
+               <div class="creators__item wow animate__animated animate__fadeInLeft" data-wow-delay="1.2s" data-wow-duration="1.2s">
+                  <div class="creators__item-flex">
+                     <img class="creators__item-img" src="assets/images/creators/creator3.png" alt="">
+                     <div>
+                        <div class="creators__item-name">Wzard Dee</div>
+                        <div class="creators__item-price">4.89 ETH</div>
+                     </div>
+                  </div>
+                  <div class="creators__item-items">
+                     <div class="creators__item-items-amount">33</div>
+                     <div class="creators__item-items-title">Items</div>
+                  </div>
+               </div>
+               <div class="creators__item wow animate__animated animate__fadeInRight" data-wow-delay="1.8s" data-wow-duration="1.2s">
+                  <div class="creators__item-flex">
+                     <img class="creators__item-img" src="assets/images/creators/creator4.png" alt="">
+                     <div>
+                        <div class="creators__item-name">Wzard Dee</div>
+                        <div class="creators__item-price">4.89 ETH</div>
+                     </div>
+                  </div>
+                  <div class="creators__item-items">
+                     <div class="creators__item-items-amount">33</div>
+                     <div class="creators__item-items-title">Items</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End of Creators -->
+   <!-- Form -->
+   <section class="form">
+      <div class="container">
+         <div class="form-inner">
+            <h2 class="h2 form-h2">Ready for Next NFT Drop?</h2>
+            <form class="form-content wow animate__animated animate__pulse" action="#">
+               <input class="email" type="email" placeholder="info@gmail.com">
+               <button class="btn-primary form-btn" type="submit">Subscribe</button>
+            </form>
+            <div class="form-dec"></div>
+         </div>
+      </div>
+   </section>
+   <!-- End of Form -->
+   <!-- Footer -->
+   <footer class="footer">
+      <div class="container">
+         <div class="footer-inner">
+            <div class="footer__info-container">
+               <div class="footer__info-logo">
+                  <a href="/" class="footer__logo">
+                     <img src="assets/images/footer-logo.png" alt="logo NFT">
+                  </a>
+               </div>
+               <div class="footer__info">
+                  <p class="footer__info-text">Nec, enim sed lacus, magna pharetra. Phasellus tincidunt nulla pharetra gravida est.</p>
+                  <div class="footer__info-icons">
+                     <a class="footer__info-icons-item" href="#"><i class='bx bxl-youtube'></i></a>
+                     <a class="footer__info-icons-item" href="#"><i class='bx bxl-twitter'></i></a>
+                     <a class="footer__info-icons-item" href="#"><i class='bx bxl-facebook'></i></a>
+                     <a class="footer__info-icons-item" href="#"><i class='bx bxl-google-plus'></i></a>
+                  </div>
+                  <p class="footer__info-rights">All rights reserved@2021</p>
+               </div>
+            </div>
+            <div class="footer__about">
+               <p class="footer__title">About Us</p>
+               <ul class="footer__list">
+                  <li class="footer__about-item">
+                     <a href="#">About NFTs</a>
+                  </li>
+                  <li class="footer__about-item">
+                     <a href="#">Live Auctions</a>
+                  </li>
+                  <li class="footer__about-item">
+                     <a href="#">NFT Blog</a>
+                  </li>
+                  <li class="footer__about-item">
+                     <a href="#">Activity</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__support">
+               <p class="footer__title">Support</p>
+               <ul class="footer__list">
+                  <li class="footer__about-item">
+                     <a href="#">Help & Support</a>
+                  </li>
+                  <li class="footer__about-item">
+                     <a href="#">Item Details</a>
+                  </li>
+                  <li class="footer__about-item">
+                     <a href="#">Author Profile</a>
+                  </li>
+                  <li class="footer__about-item">
+                     <a href="#">Collection</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- End of Footer -->
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="assets/js/wow.min.js"></script>
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
