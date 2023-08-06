@@ -719,7 +719,13 @@ h1, h2, h3 {
       padding: 16px 0;
       margin-top: 20px;
    }
+
+   .auctions__slider .slick-prev {
+      right: inherit;
+   }
 }
+
+
 
 // Instruction
 
@@ -1024,6 +1030,19 @@ h1, h2, h3 {
    }
 }
 
+@media screen and (max-width: 440px) {
+   .categories {
+      padding-top: 60px;
+   }
+   .categories-inner .section-title {
+      margin-bottom: 60px;
+   }
+
+   .section-title__svg--categories {
+      display: none;
+   }
+}
+
 // Creators
 
 .creators {
@@ -1145,6 +1164,27 @@ h1, h2, h3 {
    }
    .creators__item-items-title {
       font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 440px) {
+   .creators__item {
+      padding: 15px 25px 15px 16px;
+
+      &-img {
+         width: 48px;
+         height: 48px;
+      }
+      &-items:after {
+         display: none;
+      }
+      &-name {
+         margin-bottom: 4px;
+      }
+
+      &-items-title {
+         line-height: normal;
+      }
    }
 }
 
